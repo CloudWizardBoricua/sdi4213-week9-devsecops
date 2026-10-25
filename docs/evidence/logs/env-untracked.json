@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "ls-files",
+    "--error-unmatch",
+    ".env"
+  ],
+  "started_at": "2026-10-25T20:56:03.125938+00:00",
+  "exit_code": 1,
+  "finished_at": "2026-10-25T20:56:03.166660+00:00"
+}

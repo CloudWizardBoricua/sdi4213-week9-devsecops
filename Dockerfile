@@ -5,12 +5,18 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY app ./app
+# A fixed, dedicated identity makes the runtime policy easy to verify.
+RUN groupadd --gid 10001 appuser \
+    && useradd --uid 10001 --gid appuser --create-home appuser \
+    && chown appuser:appuser /app
+
+COPY --chown=appuser:appuser app ./app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
 EXPOSE 8501
 
-# WEEK 9 SECURITY TODO:
-# The container currently runs as root by default.
-# Create a non-root application user and switch to that user before CMD.
+USER appuser
 
 CMD ["streamlit", "run", "app/main.py", "--server.address=0.0.0.0", "--server.port=8501"]

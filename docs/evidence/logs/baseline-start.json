@@ -1,0 +1,12 @@
+{
+  "command": [
+    "docker",
+    "compose",
+    "up",
+    "-d",
+    "--build"
+  ],
+  "started_at": "2026-10-25T20:55:58.905873+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:56:01.566348+00:00"
+}

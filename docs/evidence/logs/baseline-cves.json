@@ -1,0 +1,11 @@
+{
+  "command": [
+    "docker",
+    "scout",
+    "cves",
+    "helpdesk:week9-before"
+  ],
+  "started_at": "2026-10-25T20:55:25.189928+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:56:23.163601+00:00"
+}

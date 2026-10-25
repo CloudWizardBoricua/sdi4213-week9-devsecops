@@ -4,6 +4,12 @@
 __pycache__
 .pytest_cache
 .env
+.env.*
+!.env.example
 *.db
 docs
 tests
+scripts
+student-resources
+output
+tmp

@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.17, pytest-8.4.2, pluggy-1.7.0 -- /usr/local/bin/python
+rootdir: /app
+collecting ... collected 2 items
+
+tests/test_db.py::test_create_and_list_request PASSED                    [ 50%]
+tests/test_db.py::test_update_status PASSED                              [100%]
+
+============================== 2 passed in 0.28s ===============================

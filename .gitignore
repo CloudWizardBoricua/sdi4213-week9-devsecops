@@ -2,5 +2,9 @@
 __pycache__/
 .pytest_cache/
 .env
+.env.*
+!.env.example
 *.db
 .DS_Store
+tmp/
+docs/evidence/views/

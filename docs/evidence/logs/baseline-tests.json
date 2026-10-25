@@ -1,0 +1,23 @@
+{
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--mount",
+    "type=bind,source=C:\\Users\\LPT-TEST-LAB\\OneDrive\\Desktop\\devops\\SDI4213_Week9_Student_Starter\\tests,target=/app/tests,readonly",
+    "-e",
+    "PYTHONDONTWRITEBYTECODE=1",
+    "--entrypoint",
+    "python",
+    "helpdesk:week9-before",
+    "-m",
+    "pytest",
+    "-v",
+    "-p",
+    "no:cacheprovider",
+    "tests"
+  ],
+  "started_at": "2026-10-25T20:55:24.336578+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:55:25.620582+00:00"
+}

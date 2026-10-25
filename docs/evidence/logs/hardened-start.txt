@@ -1,0 +1,63 @@
+ Image sdi4213_week9_student_starter-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 647B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 571B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.13-slim
+#3 DONE 0.3s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 164B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 120B done
+#5 DONE 0.0s
+
+#6 [1/6] FROM docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962
+#6 resolve docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962 0.0s done
+#6 DONE 0.0s
+
+#7 [2/6] WORKDIR /app
+#7 CACHED
+
+#8 [3/6] COPY requirements.txt .
+#8 CACHED
+
+#9 [5/6] RUN groupadd --gid 10001 appuser     && useradd --uid 10001 --gid appuser --create-home appuser     && chown appuser:appuser /app
+#9 CACHED
+
+#10 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#10 CACHED
+
+#11 [6/6] COPY --chown=appuser:appuser app ./app
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:08bc49d6c26eef360de9b379a55153a0a66ffe7e7b92c93108a77140439ca825 0.0s done
+#12 exporting config sha256:45784d77c013619222a78a2dc458d35d758b9e11c27280509c2bc1b5d628db59 0.0s done
+#12 exporting attestation manifest sha256:427716b0a302590258131cf89858c99cfdaffa2c2eac4b71ff8e13fdf9283ae4 0.0s done
+#12 exporting manifest list sha256:ff377a7df133b8f93c19c0b2e89e4ba48e114b3edcb0d6498a753ad5c6b3ea6b 0.0s done
+#12 naming to docker.io/library/sdi4213_week9_student_starter-web:latest
+#12 naming to docker.io/library/sdi4213_week9_student_starter-web:latest done
+#12 unpacking to docker.io/library/sdi4213_week9_student_starter-web:latest done
+#12 DONE 0.1s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ Image sdi4213_week9_student_starter-web Built 
+ Container sdi4213_week9_student_starter-db-1 Running 
+ Container sdi4213_week9_student_starter-adminer-1 Running 
+ Container sdi4213_week9_student_starter-web-1 Recreate 
+ Container sdi4213_week9_student_starter-web-1 Recreated 
+ Container sdi4213_week9_student_starter-db-1 Waiting 
+ Container sdi4213_week9_student_starter-db-1 Waiting 
+ Container sdi4213_week9_student_starter-db-1 Healthy 
+ Container sdi4213_week9_student_starter-db-1 Healthy 
+ Container sdi4213_week9_student_starter-web-1 Starting 
+ Container sdi4213_week9_student_starter-web-1 Started 
