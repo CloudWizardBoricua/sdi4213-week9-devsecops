@@ -1,0 +1,39 @@
+name: Security Checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  security-policy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Reject a tracked .env file
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git ls-files --error-unmatch .env >/dev/null 2>&1; then
+            echo "::error::.env is tracked; keep local secrets out of Git."
+            exit 1
+          fi
+          echo ".env is not tracked by Git."
+
+      - name: Build the hardened image
+        run: docker build -t helpdesk:security .
+
+      - name: Require a non-root runtime user
+        shell: bash
+        run: |
+          set -euo pipefail
+          USER_ID=$(docker run --rm --entrypoint id helpdesk:security -u)
+          echo "Container UID: $USER_ID"
+          test "$USER_ID" -ne 0

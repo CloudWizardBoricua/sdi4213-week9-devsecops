@@ -1,0 +1,6 @@
+* text=auto
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+# Preserve CLI evidence verbatim, including scanner table padding.
+docs/evidence/logs/*.txt -text -whitespace

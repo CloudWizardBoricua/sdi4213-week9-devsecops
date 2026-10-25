@@ -1,0 +1,15 @@
+{
+  "command": [
+    "curl.exe",
+    "--fail",
+    "--silent",
+    "--output",
+    "NUL",
+    "--write-out",
+    "HTTP %{http_code}",
+    "http://127.0.0.1:18081/"
+  ],
+  "started_at": "2026-10-25T21:03:42.009407+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T21:03:42.113410+00:00"
+}

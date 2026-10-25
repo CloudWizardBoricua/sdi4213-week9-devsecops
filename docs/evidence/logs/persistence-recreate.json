@@ -1,0 +1,14 @@
+{
+  "command": [
+    "docker",
+    "compose",
+    "up",
+    "-d",
+    "--force-recreate",
+    "db",
+    "web"
+  ],
+  "started_at": "2026-10-25T21:03:32.907704+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T21:03:40.400432+00:00"
+}

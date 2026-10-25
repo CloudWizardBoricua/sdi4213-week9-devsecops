@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "status",
+    "--short",
+    "--branch"
+  ],
+  "started_at": "2026-10-25T20:56:03.276348+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:56:03.325388+00:00"
+}

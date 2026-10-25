@@ -1,0 +1,4 @@
+NAME                                      IMAGE                               COMMAND                  SERVICE   CREATED         STATUS                   PORTS
+sdi4213_week9_student_starter-adminer-1   adminer:5                           "entrypoint.sh docke…"   adminer   7 minutes ago   Up 7 minutes             127.0.0.1:18081->8080/tcp
+sdi4213_week9_student_starter-db-1        postgres:18                         "docker-entrypoint.s…"   db        8 seconds ago   Up 6 seconds (healthy)   5432/tcp
+sdi4213_week9_student_starter-web-1       sdi4213_week9_student_starter-web   "streamlit run app/m…"   web       8 seconds ago   Up 1 second              127.0.0.1:8502->8501/tcp

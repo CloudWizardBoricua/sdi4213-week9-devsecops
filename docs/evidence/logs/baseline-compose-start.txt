@@ -1,0 +1,197 @@
+ Image postgres:18 Pulling 
+ fc259989795e Pulling fs layer 0B
+ 8ed0c854313a Pulling fs layer 0B
+ 92accee5624e Pulling fs layer 0B
+ 36f05ca1a259 Pulling fs layer 0B
+ 5bf0df4dfeec Pulling fs layer 0B
+ 33e59af3458c Pulling fs layer 0B
+ bea9e19f5a74 Pulling fs layer 0B
+ 19f779d0bd48 Pulling fs layer 0B
+ cf9efa127f85 Pulling fs layer 0B
+ af1084bcb355 Pulling fs layer 0B
+ 40ebd398ec37 Pulling fs layer 0B
+ 00490e632b75 Pulling fs layer 0B
+ fc259989795e Downloading 1.049MB
+ 8ed0c854313a Download complete 0B
+ fc259989795e Downloading 4.194MB
+ fc259989795e Downloading 6.291MB
+ 92accee5624e Downloading 1.049MB
+ fc259989795e Downloading 7.34MB
+ 33e59af3458c Download complete 0B
+ 92accee5624e Downloading 2.097MB
+ 92accee5624e Downloading 5.243MB
+ 36f05ca1a259 Download complete 0B
+ fc259989795e Download complete 0B
+ 36f05ca1a259 Extracting 1B
+ 92accee5624e Download complete 0B
+ 5bf0df4dfeec Download complete 0B
+ 19f779d0bd48 Download complete 0B
+ 36f05ca1a259 Pull complete 0B
+ 92accee5624e Extracting 1B
+ bea9e19f5a74 Download complete 0B
+ cf9efa127f85 Downloading 2.097MB
+ 92accee5624e Extracting 1B
+ af1084bcb355 Download complete 0B
+ 00490e632b75 Download complete 0B
+ cf9efa127f85 Downloading 5.243MB
+ 40ebd398ec37 Download complete 0B
+ 92accee5624e Pull complete 0B
+ 5bf0df4dfeec Pull complete 0B
+ cf9efa127f85 Downloading 8.389MB
+ 22580ab3546a Download complete 0B
+ fc259989795e Extracting 1B
+ cf9efa127f85 Downloading 10.49MB
+ 5ac26356ed7c Downloading 1.049MB
+ fc259989795e Extracting 1B
+ cf9efa127f85 Downloading 12.58MB
+ 5ac26356ed7c Downloading 3.146MB
+ fc259989795e Extracting 1B
+ 5ac26356ed7c Downloading 5.243MB
+ cf9efa127f85 Downloading 14.68MB
+ fc259989795e Pull complete 0B
+ cf9efa127f85 Downloading 17.83MB
+ 5ac26356ed7c Download complete 0B
+ 33e59af3458c Pull complete 0B
+ cf9efa127f85 Downloading 19.92MB
+ 19f779d0bd48 Pull complete 0B
+ bea9e19f5a74 Pull complete 0B
+ cf9efa127f85 Downloading 23.07MB
+ cf9efa127f85 Downloading 24.12MB
+ cf9efa127f85 Downloading 26.21MB
+ cf9efa127f85 Downloading 29.36MB
+ cf9efa127f85 Downloading 32.51MB
+ cf9efa127f85 Downloading 34.6MB
+ cf9efa127f85 Downloading 36.7MB
+ cf9efa127f85 Downloading 39.85MB
+ cf9efa127f85 Downloading 41.94MB
+ cf9efa127f85 Downloading 45.09MB
+ cf9efa127f85 Downloading 48.23MB
+ cf9efa127f85 Downloading 50.33MB
+ cf9efa127f85 Downloading 53.48MB
+ cf9efa127f85 Downloading 56.62MB
+ cf9efa127f85 Downloading 60.82MB
+ cf9efa127f85 Downloading 63.96MB
+ cf9efa127f85 Downloading 67.11MB
+ cf9efa127f85 Downloading 70.25MB
+ cf9efa127f85 Downloading 72.35MB
+ cf9efa127f85 Downloading 75.5MB
+ cf9efa127f85 Downloading 78.64MB
+ cf9efa127f85 Downloading 80.74MB
+ cf9efa127f85 Downloading 82.84MB
+ cf9efa127f85 Downloading 84.93MB
+ cf9efa127f85 Downloading 88.08MB
+ cf9efa127f85 Downloading 91.23MB
+ cf9efa127f85 Downloading 93.32MB
+ cf9efa127f85 Downloading 96.47MB
+ cf9efa127f85 Downloading 98.57MB
+ cf9efa127f85 Downloading 101.7MB
+ cf9efa127f85 Downloading 104.9MB
+ cf9efa127f85 Downloading 107MB
+ cf9efa127f85 Downloading 109.1MB
+ cf9efa127f85 Downloading 112.2MB
+ cf9efa127f85 Downloading 115.4MB
+ cf9efa127f85 Download complete 0B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 1B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 2B
+ cf9efa127f85 Extracting 3B
+ 8ed0c854313a Pull complete 0B
+ af1084bcb355 Pull complete 0B
+ 00490e632b75 Pull complete 0B
+ 40ebd398ec37 Pull complete 0B
+ cf9efa127f85 Pull complete 0B
+ Image postgres:18 Pulled 
+ Image sdi4213_week9_student_starter-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 647B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 420B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.13-slim
+#3 DONE 0.5s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 106B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 120B done
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962
+#6 resolve docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962 0.0s done
+#6 DONE 0.0s
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [3/5] COPY requirements.txt .
+#9 CACHED
+
+#10 [5/5] COPY app ./app
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:6f4428fc5618469dcedc7133f7a4dc26407fa867e1d3e3ecd41b47b7148e2de3 0.0s done
+#11 exporting config sha256:cc6abdd39e71bf2cf456462b1f26f1118a5cb8c1dbd129ffed330c2bc8c3f7ca 0.0s done
+#11 exporting attestation manifest sha256:1835c31fe72636fa2395f39f198c10011cc26dc4d7c0c6f95b35443968813e6b 0.0s done
+#11 exporting manifest list sha256:77b368ed2b564160826825ee0dc0ae26e1e5fe622dae68a1ca5c5e582b97c913 0.0s done
+#11 naming to docker.io/library/sdi4213_week9_student_starter-web:latest
+#11 naming to docker.io/library/sdi4213_week9_student_starter-web:latest done
+#11 unpacking to docker.io/library/sdi4213_week9_student_starter-web:latest done
+#11 DONE 0.1s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+ Image sdi4213_week9_student_starter-web Built 
+ Network sdi4213_week9_student_starter_default Creating 
+ Volume sdi4213_week9_student_starter_helpdesk_data Creating 
+ Volume sdi4213_week9_student_starter_helpdesk_data Creating 
+ Network sdi4213_week9_student_starter_default Creating 
+ Volume sdi4213_week9_student_starter_helpdesk_data Created 
+ Volume sdi4213_week9_student_starter_helpdesk_data Created 
+ Network sdi4213_week9_student_starter_default Created 
+ Network sdi4213_week9_student_starter_default Created 
+ Container sdi4213_week9_student_starter-db-1 Creating 
+ Container sdi4213_week9_student_starter-db-1 Created 
+ Container sdi4213_week9_student_starter-adminer-1 Creating 
+ Container sdi4213_week9_student_starter-web-1 Creating 
+ Container sdi4213_week9_student_starter-web-1 Created 
+ Container sdi4213_week9_student_starter-adminer-1 Created 
+ Container sdi4213_week9_student_starter-db-1 Starting 
+ Container sdi4213_week9_student_starter-db-1 Started 
+ Container sdi4213_week9_student_starter-db-1 Waiting 
+ Container sdi4213_week9_student_starter-db-1 Waiting 
+ Container sdi4213_week9_student_starter-db-1 Healthy 
+ Container sdi4213_week9_student_starter-adminer-1 Starting 
+ Container sdi4213_week9_student_starter-db-1 Healthy 
+ Container sdi4213_week9_student_starter-web-1 Starting 
+Error response from daemon: ports are not available: exposing port TCP 0.0.0.0:8080 -> 127.0.0.1:0: listen tcp 0.0.0.0:8080: bind: An attempt was made to access a socket in a way forbidden by its access permissions.

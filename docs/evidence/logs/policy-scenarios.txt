@@ -1,0 +1,22 @@
+
+Untracked .env: policy accepts
+.env is not tracked by Git.
+Exit code: 0
+Expected outcome verified.
+
+Tracked dummy .env: policy rejects
+::error::.env is tracked; keep local secrets out of Git.
+Exit code: 1
+Expected outcome verified.
+
+Baseline root image: policy rejects
+Container UID: 0
+Exit code: 1
+Expected outcome verified.
+
+Hardened image: policy accepts
+Container UID: 10001
+Exit code: 0
+Expected outcome verified.
+
+All four policy scenarios passed; no fixture was committed or pushed.

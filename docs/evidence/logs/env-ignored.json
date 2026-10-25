@@ -1,0 +1,10 @@
+{
+  "command": [
+    "git",
+    "check-ignore",
+    ".env"
+  ],
+  "started_at": "2026-10-25T20:56:02.958530+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:56:03.009674+00:00"
+}

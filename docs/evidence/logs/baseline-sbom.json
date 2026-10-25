@@ -1,0 +1,13 @@
+{
+  "command": [
+    "docker",
+    "scout",
+    "sbom",
+    "--format",
+    "list",
+    "helpdesk:week9-before"
+  ],
+  "started_at": "2026-10-25T20:56:25.813892+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T20:56:26.346481+00:00"
+}
