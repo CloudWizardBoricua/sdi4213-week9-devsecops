@@ -1,0 +1,402 @@
+security-policy	Set up job	﻿2026-10-25T21:13:35.4961734Z Current runner version: '2.338.0'
+security-policy	Set up job	2026-10-25T21:13:35.4988693Z ##[group]Runner Image Provisioner
+security-policy	Set up job	2026-10-25T21:13:35.4989593Z Hosted Compute Agent
+security-policy	Set up job	2026-10-25T21:13:35.4990300Z Version: 20261021.618
+security-policy	Set up job	2026-10-25T21:13:35.4990947Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+security-policy	Set up job	2026-10-25T21:13:35.4991703Z Build Date: 2026-10-21T00:45:21Z
+security-policy	Set up job	2026-10-25T21:13:35.4992466Z Worker ID: {3a19cb57-e84f-4900-8176-eb744bef9b33}
+security-policy	Set up job	2026-10-25T21:13:35.4993181Z Region: centralus
+security-policy	Set up job	2026-10-25T21:13:35.4993813Z Cloud: Azure
+security-policy	Set up job	2026-10-25T21:13:35.4994592Z ##[endgroup]
+security-policy	Set up job	2026-10-25T21:13:35.4996450Z ##[group]Operating System
+security-policy	Set up job	2026-10-25T21:13:35.4997234Z Ubuntu
+security-policy	Set up job	2026-10-25T21:13:35.4997768Z 24.04.5
+security-policy	Set up job	2026-10-25T21:13:35.4998357Z LTS
+security-policy	Set up job	2026-10-25T21:13:35.4998901Z ##[endgroup]
+security-policy	Set up job	2026-10-25T21:13:35.4999501Z ##[group]Runner Image
+security-policy	Set up job	2026-10-25T21:13:35.5000161Z Image: ubuntu-24.04
+security-policy	Set up job	2026-10-25T21:13:35.5000736Z Version: 20261012.334.1
+security-policy	Set up job	2026-10-25T21:13:35.5001868Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+security-policy	Set up job	2026-10-25T21:13:35.5003633Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+security-policy	Set up job	2026-10-25T21:13:35.5004974Z ##[endgroup]
+security-policy	Set up job	2026-10-25T21:13:35.5006110Z ##[group]GITHUB_TOKEN Permissions
+security-policy	Set up job	2026-10-25T21:13:35.5008328Z Contents: read
+security-policy	Set up job	2026-10-25T21:13:35.5009034Z Metadata: read
+security-policy	Set up job	2026-10-25T21:13:35.5009700Z ##[endgroup]
+security-policy	Set up job	2026-10-25T21:13:35.5011902Z Secret source: Actions
+security-policy	Set up job	2026-10-25T21:13:35.5012869Z Cache mode: write
+security-policy	Set up job	2026-10-25T21:13:35.5014264Z Prepare workflow directory
+security-policy	Set up job	2026-10-25T21:13:35.5373091Z Prepare all required actions
+security-policy	Set up job	2026-10-25T21:13:35.5421672Z Getting action download info
+security-policy	Set up job	2026-10-25T21:13:35.8114324Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+security-policy	Set up job	2026-10-25T21:13:36.0086082Z Complete job name: security-policy
+security-policy	Check out repository	﻿2026-10-25T21:13:36.1006744Z ##[group]Run actions/checkout@v6
+security-policy	Check out repository	2026-10-25T21:13:36.1007672Z with:
+security-policy	Check out repository	2026-10-25T21:13:36.1008226Z   repository: CloudWizardBoricua/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.1012445Z   token: ***
+security-policy	Check out repository	2026-10-25T21:13:36.1012890Z   ssh-strict: true
+security-policy	Check out repository	2026-10-25T21:13:36.1013342Z   ssh-user: git
+security-policy	Check out repository	2026-10-25T21:13:36.1013799Z   persist-credentials: true
+security-policy	Check out repository	2026-10-25T21:13:36.1014521Z   clean: true
+security-policy	Check out repository	2026-10-25T21:13:36.1014989Z   sparse-checkout-cone-mode: true
+security-policy	Check out repository	2026-10-25T21:13:36.1015525Z   fetch-depth: 1
+security-policy	Check out repository	2026-10-25T21:13:36.1015970Z   fetch-tags: false
+security-policy	Check out repository	2026-10-25T21:13:36.1016428Z   show-progress: true
+security-policy	Check out repository	2026-10-25T21:13:36.1016880Z   lfs: false
+security-policy	Check out repository	2026-10-25T21:13:36.1017316Z   submodules: false
+security-policy	Check out repository	2026-10-25T21:13:36.1017827Z   set-safe-directory: true
+security-policy	Check out repository	2026-10-25T21:13:36.1018410Z   allow-unsafe-pr-checkout: false
+security-policy	Check out repository	2026-10-25T21:13:36.1019191Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.2037424Z Syncing repository: CloudWizardBoricua/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.2040304Z ##[group]Getting Git version info
+security-policy	Check out repository	2026-10-25T21:13:36.2041822Z Working directory is '/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops'
+security-policy	Check out repository	2026-10-25T21:13:36.2043789Z [command]/usr/bin/git version
+security-policy	Check out repository	2026-10-25T21:13:36.2120365Z git version 2.55.0
+security-policy	Check out repository	2026-10-25T21:13:36.2148081Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.2164601Z Temporarily overriding HOME='/home/runner/work/_temp/963075b5-2162-4d2c-ab08-0929c4d0307f' before making global git config changes
+security-policy	Check out repository	2026-10-25T21:13:36.2167322Z Adding repository directory to the temporary git global config as a safe directory
+security-policy	Check out repository	2026-10-25T21:13:36.2171774Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.2225993Z Deleting the contents of '/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops'
+security-policy	Check out repository	2026-10-25T21:13:36.2230723Z ##[group]Determining repository object format
+security-policy	Check out repository	2026-10-25T21:13:36.2233648Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.2235173Z ##[group]Initializing the repository
+security-policy	Check out repository	2026-10-25T21:13:36.2238497Z [command]/usr/bin/git init /home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.2364379Z hint: Using 'master' as the name for the initial branch. This default branch name
+security-policy	Check out repository	2026-10-25T21:13:36.2366741Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+security-policy	Check out repository	2026-10-25T21:13:36.2368658Z hint: to use in all of your new repositories, which will suppress this warning,
+security-policy	Check out repository	2026-10-25T21:13:36.2370001Z hint: call:
+security-policy	Check out repository	2026-10-25T21:13:36.2370703Z hint:
+security-policy	Check out repository	2026-10-25T21:13:36.2373093Z hint: 	git config --global init.defaultBranch <name>
+security-policy	Check out repository	2026-10-25T21:13:36.2374467Z hint:
+security-policy	Check out repository	2026-10-25T21:13:36.2375447Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+security-policy	Check out repository	2026-10-25T21:13:36.2377023Z hint: 'development'. The just-created branch can be renamed via this command:
+security-policy	Check out repository	2026-10-25T21:13:36.2378372Z hint:
+security-policy	Check out repository	2026-10-25T21:13:36.2379065Z hint: 	git branch -m <name>
+security-policy	Check out repository	2026-10-25T21:13:36.2379845Z hint:
+security-policy	Check out repository	2026-10-25T21:13:36.2380886Z hint: Disable this message with "git config set advice.defaultBranchName false"
+security-policy	Check out repository	2026-10-25T21:13:36.2382952Z Initialized empty Git repository in /home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git/
+security-policy	Check out repository	2026-10-25T21:13:36.2386911Z [command]/usr/bin/git remote add origin https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.2435500Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.2436795Z ##[group]Disabling automatic garbage collection
+security-policy	Check out repository	2026-10-25T21:13:36.2439655Z [command]/usr/bin/git config --local gc.auto 0
+security-policy	Check out repository	2026-10-25T21:13:36.2472541Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.2473928Z ##[group]Setting up auth
+security-policy	Check out repository	2026-10-25T21:13:36.2475438Z Removing SSH command configuration
+security-policy	Check out repository	2026-10-25T21:13:36.2483284Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+security-policy	Check out repository	2026-10-25T21:13:36.2523716Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+security-policy	Check out repository	2026-10-25T21:13:36.2927720Z Removing HTTP extra header
+security-policy	Check out repository	2026-10-25T21:13:36.2935887Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+security-policy	Check out repository	2026-10-25T21:13:36.2972133Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+security-policy	Check out repository	2026-10-25T21:13:36.3193268Z Removing includeIf entries pointing to credentials config files
+security-policy	Check out repository	2026-10-25T21:13:36.3201530Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+security-policy	Check out repository	2026-10-25T21:13:36.3238657Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+security-policy	Check out repository	2026-10-25T21:13:36.3469407Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+security-policy	Check out repository	2026-10-25T21:13:36.3513639Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git.path /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Check out repository	2026-10-25T21:13:36.3552469Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Check out repository	2026-10-25T21:13:36.3593458Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Check out repository	2026-10-25T21:13:36.3631060Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Check out repository	2026-10-25T21:13:36.3662245Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.3663645Z ##[group]Fetching the repository
+security-policy	Check out repository	2026-10-25T21:13:36.3672706Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +460e24a056f64daf9ccde39db88486f96f5ca3d0:refs/remotes/pull/3/merge
+security-policy	Check out repository	2026-10-25T21:13:36.7531406Z From https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops
+security-policy	Check out repository	2026-10-25T21:13:36.7533888Z  * [new ref]         460e24a056f64daf9ccde39db88486f96f5ca3d0 -> pull/3/merge
+security-policy	Check out repository	2026-10-25T21:13:36.7539992Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.7541722Z ##[group]Determining the checkout info
+security-policy	Check out repository	2026-10-25T21:13:36.7543570Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.7548367Z [command]/usr/bin/git sparse-checkout disable
+security-policy	Check out repository	2026-10-25T21:13:36.7603393Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+security-policy	Check out repository	2026-10-25T21:13:36.7636103Z ##[group]Checking out the ref
+security-policy	Check out repository	2026-10-25T21:13:36.7641342Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/3/merge
+security-policy	Check out repository	2026-10-25T21:13:36.7758562Z Note: switching to 'refs/remotes/pull/3/merge'.
+security-policy	Check out repository	2026-10-25T21:13:36.7759491Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7760106Z You are in 'detached HEAD' state. You can look around, make experimental
+security-policy	Check out repository	2026-10-25T21:13:36.7761609Z changes and commit them, and you can discard any commits you make in this
+security-policy	Check out repository	2026-10-25T21:13:36.7763003Z state without impacting any branches by switching back to a branch.
+security-policy	Check out repository	2026-10-25T21:13:36.7763832Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7764714Z If you want to create a new branch to retain commits you create, you may
+security-policy	Check out repository	2026-10-25T21:13:36.7767007Z do so (now or later) by using -c with the switch command. Example:
+security-policy	Check out repository	2026-10-25T21:13:36.7768330Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7768827Z   git switch -c <new-branch-name>
+security-policy	Check out repository	2026-10-25T21:13:36.7769717Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7770328Z Or undo this operation with:
+security-policy	Check out repository	2026-10-25T21:13:36.7771349Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7771884Z   git switch -
+security-policy	Check out repository	2026-10-25T21:13:36.7772655Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7773814Z Turn off this advice by setting config variable advice.detachedHead to false
+security-policy	Check out repository	2026-10-25T21:13:36.7775400Z 
+security-policy	Check out repository	2026-10-25T21:13:36.7776817Z HEAD is now at 460e24a Merge b87c619eeab12c7f8ac729c6b4ddaaa7a2ce6e5c into 86da7cdd095c11bbd1de652354b7966de9b58d09
+security-policy	Check out repository	2026-10-25T21:13:36.7780762Z ##[endgroup]
+security-policy	Check out repository	2026-10-25T21:13:36.7818215Z [command]/usr/bin/git log -1 --format=%H
+security-policy	Check out repository	2026-10-25T21:13:36.7846027Z 460e24a056f64daf9ccde39db88486f96f5ca3d0
+security-policy	Reject a tracked .env file	﻿2026-10-25T21:13:36.8091028Z ##[group]Run set -euo pipefail
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8091794Z ^[[36;1mset -euo pipefail^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8092528Z ^[[36;1mif git ls-files --error-unmatch .env >/dev/null 2>&1; then^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8093452Z ^[[36;1m  echo "::error::.env is tracked; keep local secrets out of Git."^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8094488Z ^[[36;1m  exit 1^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8094968Z ^[[36;1mfi^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8095494Z ^[[36;1mecho ".env is not tracked by Git."^[[0m
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8359258Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8360378Z ##[endgroup]
+security-policy	Reject a tracked .env file	2026-10-25T21:13:36.8495602Z .env is not tracked by Git.
+security-policy	Build the hardened image	﻿2026-10-25T21:13:36.8557054Z ##[group]Run docker build -t helpdesk:security .
+security-policy	Build the hardened image	2026-10-25T21:13:36.8557887Z ^[[36;1mdocker build -t helpdesk:security .^[[0m
+security-policy	Build the hardened image	2026-10-25T21:13:36.8623565Z shell: /usr/bin/bash -e {0}
+security-policy	Build the hardened image	2026-10-25T21:13:36.8624491Z ##[endgroup]
+security-policy	Build the hardened image	2026-10-25T21:13:37.4120766Z #0 building with "default" instance using docker driver
+security-policy	Build the hardened image	2026-10-25T21:13:37.4122182Z 
+security-policy	Build the hardened image	2026-10-25T21:13:37.4122902Z #1 [internal] load build definition from Dockerfile
+security-policy	Build the hardened image	2026-10-25T21:13:37.4124778Z #1 transferring dockerfile: 571B 0.0s done
+security-policy	Build the hardened image	2026-10-25T21:13:37.4126062Z #1 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:37.4126617Z 
+security-policy	Build the hardened image	2026-10-25T21:13:37.4127105Z #2 [auth] library/python:pull token for registry-1.docker.io
+security-policy	Build the hardened image	2026-10-25T21:13:37.5626388Z #2 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:37.5627196Z 
+security-policy	Build the hardened image	2026-10-25T21:13:37.5628054Z #3 [internal] load metadata for docker.io/library/python:3.13-slim
+security-policy	Build the hardened image	2026-10-25T21:13:37.9039217Z #3 DONE 0.6s
+security-policy	Build the hardened image	2026-10-25T21:13:38.0259776Z 
+security-policy	Build the hardened image	2026-10-25T21:13:38.0260770Z #4 [internal] load .dockerignore
+security-policy	Build the hardened image	2026-10-25T21:13:38.0262247Z #4 transferring context: 164B done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0263616Z #4 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:38.0264587Z 
+security-policy	Build the hardened image	2026-10-25T21:13:38.0265258Z #5 [internal] load build context
+security-policy	Build the hardened image	2026-10-25T21:13:38.0266596Z #5 transferring context: 4.93kB done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0267831Z #5 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:38.0268353Z 
+security-policy	Build the hardened image	2026-10-25T21:13:38.0269833Z #6 [1/6] FROM docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962
+security-policy	Build the hardened image	2026-10-25T21:13:38.0274756Z #6 resolve docker.io/library/python:3.13-slim@sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962 done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0279015Z #6 sha256:d98cc29d3266e535dd9da1099688d9cb3ca4753813571e071763d17725460962 10.37kB / 10.37kB done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0283043Z #6 sha256:d879ed88565a7a3c614b980b369d4a5025a9d057b71f93d09fc6d0b2ca823a18 1.75kB / 1.75kB done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0286919Z #6 sha256:72036a705a7cff38924efd674e60654666cb283faf7b3fad160b34007f7395bd 5.51kB / 5.51kB done
+security-policy	Build the hardened image	2026-10-25T21:13:38.0290356Z #6 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 0B / 29.84MB 0.1s
+security-policy	Build the hardened image	2026-10-25T21:13:38.0293729Z #6 sha256:bec94cf691b4dddfccfba1394c83bd789bbed4a1f7c336a67d42e2e4d38b8930 0B / 1.29MB 0.1s
+security-policy	Build the hardened image	2026-10-25T21:13:38.2105523Z #6 sha256:e1f7d490169d660949e28a29d1d513760a431ac5cda9c666f3be44a4b7a42469 0B / 11.92MB 0.1s
+security-policy	Build the hardened image	2026-10-25T21:13:38.2112813Z #6 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 10.49MB / 29.84MB 0.2s
+security-policy	Build the hardened image	2026-10-25T21:13:38.2120086Z #6 sha256:bec94cf691b4dddfccfba1394c83bd789bbed4a1f7c336a67d42e2e4d38b8930 1.29MB / 1.29MB 0.2s done
+security-policy	Build the hardened image	2026-10-25T21:13:38.2126575Z #6 sha256:1972997cb12722025e38722a7ac2d1f2526e93b32650511f0da9153772c4fa86 0B / 250B 0.2s
+security-policy	Build the hardened image	2026-10-25T21:13:38.2131386Z #6 extracting sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034
+security-policy	Build the hardened image	2026-10-25T21:13:38.3159856Z #6 sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 29.84MB / 29.84MB 0.2s done
+security-policy	Build the hardened image	2026-10-25T21:13:38.3166260Z #6 sha256:e1f7d490169d660949e28a29d1d513760a431ac5cda9c666f3be44a4b7a42469 4.19MB / 11.92MB 0.3s
+security-policy	Build the hardened image	2026-10-25T21:13:38.3171278Z #6 sha256:1972997cb12722025e38722a7ac2d1f2526e93b32650511f0da9153772c4fa86 250B / 250B 0.2s done
+security-policy	Build the hardened image	2026-10-25T21:13:38.4229939Z #6 sha256:e1f7d490169d660949e28a29d1d513760a431ac5cda9c666f3be44a4b7a42469 11.92MB / 11.92MB 0.3s done
+security-policy	Build the hardened image	2026-10-25T21:13:39.2442444Z #6 extracting sha256:f2be67225471500c788ce88c597eb5ea8336e912ad1ca4815650e0281afe2034 1.0s done
+security-policy	Build the hardened image	2026-10-25T21:13:39.2443728Z #6 extracting sha256:bec94cf691b4dddfccfba1394c83bd789bbed4a1f7c336a67d42e2e4d38b8930
+security-policy	Build the hardened image	2026-10-25T21:13:39.5406995Z #6 extracting sha256:bec94cf691b4dddfccfba1394c83bd789bbed4a1f7c336a67d42e2e4d38b8930 0.1s done
+security-policy	Build the hardened image	2026-10-25T21:13:39.5408655Z #6 extracting sha256:e1f7d490169d660949e28a29d1d513760a431ac5cda9c666f3be44a4b7a42469 0.1s
+security-policy	Build the hardened image	2026-10-25T21:13:40.0600999Z #6 extracting sha256:e1f7d490169d660949e28a29d1d513760a431ac5cda9c666f3be44a4b7a42469 0.6s done
+security-policy	Build the hardened image	2026-10-25T21:13:40.0602156Z #6 extracting sha256:1972997cb12722025e38722a7ac2d1f2526e93b32650511f0da9153772c4fa86
+security-policy	Build the hardened image	2026-10-25T21:13:40.2518062Z #6 extracting sha256:1972997cb12722025e38722a7ac2d1f2526e93b32650511f0da9153772c4fa86 done
+security-policy	Build the hardened image	2026-10-25T21:13:40.2519076Z #6 DONE 2.2s
+security-policy	Build the hardened image	2026-10-25T21:13:40.2519582Z 
+security-policy	Build the hardened image	2026-10-25T21:13:40.2533444Z #7 [2/6] WORKDIR /app
+security-policy	Build the hardened image	2026-10-25T21:13:40.2533844Z #7 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:40.2534345Z 
+security-policy	Build the hardened image	2026-10-25T21:13:40.2534558Z #8 [3/6] COPY requirements.txt .
+security-policy	Build the hardened image	2026-10-25T21:13:40.2535085Z #8 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:40.2535306Z 
+security-policy	Build the hardened image	2026-10-25T21:13:40.2535652Z #9 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+security-policy	Build the hardened image	2026-10-25T21:13:41.7191160Z #9 1.618 Collecting streamlit==1.50.0 (from -r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:41.9185118Z #9 1.667   Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.1048080Z #9 2.004 Collecting SQLAlchemy==2.0.44 (from -r requirements.txt (line 2))
+security-policy	Build the hardened image	2026-10-25T21:13:42.2254968Z #9 2.018   Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.5 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.2256359Z #9 2.045 Collecting psycopg==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+security-policy	Build the hardened image	2026-10-25T21:13:42.2257229Z #9 2.057   Downloading psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.2257926Z #9 2.089 Collecting pytest==8.4.2 (from -r requirements.txt (line 4))
+security-policy	Build the hardened image	2026-10-25T21:13:42.2258590Z #9 2.100   Downloading pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.2259964Z #9 2.125 Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.3346823Z #9 2.136   Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.3348135Z #9 2.157 Collecting blinker<2,>=1.5.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.3349048Z #9 2.168   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.3349956Z #9 2.190 Collecting cachetools<7,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.3351138Z #9 2.201   Downloading cachetools-6.2.6-py3-none-any.whl.metadata (5.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.3352653Z #9 2.223 Collecting click<9,>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.3354586Z #9 2.234   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.5263562Z #9 2.426 Collecting numpy<3,>=1.23 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.6851110Z #9 2.437   Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.6853902Z #9 2.460 Collecting packaging<26,>=20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.6856247Z #9 2.471   Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.6857878Z #9 2.584 Collecting pandas<3,>=1.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:42.8471030Z #9 2.596   Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:42.8941991Z #9 2.793 Collecting pillow<12,>=7.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.0506049Z #9 2.805   Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.0508428Z #9 2.950 Collecting protobuf<7,>=3.20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.1545773Z #9 2.961   Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+security-policy	Build the hardened image	2026-10-25T21:13:43.1547458Z #9 3.043 Collecting pyarrow>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.1549064Z #9 3.054   Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.2748419Z #9 3.080 Collecting requests<3,>=2.27 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.2750276Z #9 3.091   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.2751509Z #9 3.112 Collecting tenacity<10,>=8.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.2753467Z #9 3.123   Downloading tenacity-9.2.1-py3-none-any.whl.metadata (1.4 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.2754955Z #9 3.141 Collecting toml<2,>=0.10.1 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.2755860Z #9 3.151   Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.2756502Z #9 3.174 Collecting typing-extensions<5,>=4.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.3853160Z #9 3.185   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.3855200Z #9 3.231 Collecting watchdog<7,>=2.1.5 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.3856905Z #9 3.242   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.3858687Z #9 3.274 Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.3859734Z #9 3.285   Downloading gitpython-3.2.1-py3-none-any.whl.metadata (13 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.6258402Z #9 3.307 Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.6260733Z #9 3.318   Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.6263079Z #9 3.368 Collecting tornado!=6.5.0,<7,>=6.0.3 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:43.6265697Z #9 3.379   Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (2.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.6266795Z #9 3.525 Collecting greenlet>=1 (from SQLAlchemy==2.0.44->-r requirements.txt (line 2))
+security-policy	Build the hardened image	2026-10-25T21:13:43.7524949Z #9 3.536   Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.7526585Z #9 3.558 Collecting iniconfig>=1 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build the hardened image	2026-10-25T21:13:43.7528033Z #9 3.569   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.7529777Z #9 3.588 Collecting pluggy<2,>=1.5 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build the hardened image	2026-10-25T21:13:43.7531582Z #9 3.601   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.7532570Z #9 3.652 Collecting pygments>=2.7.2 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build the hardened image	2026-10-25T21:13:43.9138455Z #9 3.663   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:43.9202024Z #9 3.820 Collecting psycopg-binary==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+security-policy	Build the hardened image	2026-10-25T21:13:44.0441379Z #9 3.832   Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.0443290Z #9 3.854 Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.0445079Z #9 3.865   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.0446043Z #9 3.893 Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.0446716Z #9 3.904   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.0447340Z #9 3.944 Collecting narwhals>=1.14.2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.1534793Z #9 3.954   Downloading narwhals-2.27.1-py3-none-any.whl.metadata (15 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.1555480Z #9 3.978 Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.1556431Z #9 3.989   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.1557379Z #9 4.009 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.1558307Z #9 4.019   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.1559469Z #9 4.042 Collecting python-dateutil>=2.8.2 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.1560425Z #9 4.053   Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.3656828Z #9 4.093 Collecting pytz>=2020.1 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.3657999Z #9 4.104   Downloading pytz-2026.5-py2.py3-none-any.whl.metadata (22 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.3659017Z #9 4.125 Collecting tzdata>=2022.7 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.3660105Z #9 4.136   Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.3661145Z #9 4.265 Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.4735386Z #9 4.276   Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.4737885Z #9 4.299 Collecting idna<4,>=2.5 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.4739215Z #9 4.311   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.4740503Z #9 4.338 Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.4741976Z #9 4.349   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.4743310Z #9 4.373 Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.5924442Z #9 4.384   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.5925936Z #9 4.457 Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.5927438Z #9 4.468   Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.5928921Z #9 4.492 Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.8213573Z #9 4.503   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.8215271Z #9 4.522 Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.8216648Z #9 4.533   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.8217873Z #9 4.559 Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:44.8218988Z #9 4.570   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:44.9193791Z #9 4.819 Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:45.0970735Z #9 4.830   Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.0972176Z #9 4.852 Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build the hardened image	2026-10-25T21:13:45.0973301Z #9 4.864   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.0973973Z #9 4.886 Downloading streamlit-1.50.0-py3-none-any.whl (10.1 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.2053750Z #9 4.996    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 110.4 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.2055091Z #9 5.008 Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.2056283Z #9 5.020    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 315.8 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.2057024Z #9 5.032 Downloading psycopg-3.2.10-py3-none-any.whl (206 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.2058096Z #9 5.043 Downloading pytest-8.4.2-py3-none-any.whl (365 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.2059078Z #9 5.063 Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.2060292Z #9 5.094    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 147.7 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.2061032Z #9 5.105 Downloading altair-5.5.0-py3-none-any.whl (731 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3086215Z #9 5.108    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.2/731.2 kB 698.0 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.3087188Z #9 5.118 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3088130Z #9 5.129 Downloading cachetools-6.2.6-py3-none-any.whl (11 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3089177Z #9 5.140 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3089946Z #9 5.151 Downloading gitpython-3.2.1-py3-none-any.whl (231 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3090575Z #9 5.162 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.3091436Z #9 5.173 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.4189774Z #9 5.208    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 506.8 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.4191429Z #9 5.219 Downloading packaging-25.0-py3-none-any.whl (66 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.4193213Z #9 5.231 Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.4196388Z #9 5.254    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 565.9 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.4197763Z #9 5.265 Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.4199308Z #9 5.296    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 227.9 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.4200446Z #9 5.307 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.4201610Z #9 5.318 Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5240027Z #9 5.331 Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5242181Z #9 5.357    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 465.3 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.5243672Z #9 5.368 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5245871Z #9 5.380 Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5247355Z #9 5.391 Downloading idna-3.20-py3-none-any.whl (69 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5248097Z #9 5.402 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5248788Z #9 5.413 Downloading tenacity-9.2.1-py3-none-any.whl (32 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.5249442Z #9 5.423 Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6297797Z #9 5.435 Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (529 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6299485Z #9 5.437    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.5/529.5 kB 737.7 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.6300308Z #9 5.448 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6301026Z #9 5.460 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6301757Z #9 5.471 Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6302545Z #9 5.482 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6303465Z #9 5.494 Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (623 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6304752Z #9 5.496    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 623.8/623.8 kB 689.2 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:45.6305462Z #9 5.508 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6306101Z #9 5.518 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.6306738Z #9 5.529 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.7857031Z #9 5.540 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.7858893Z #9 5.551 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.7860546Z #9 5.562 Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.7861808Z #9 5.573 Downloading narwhals-2.27.1-py3-none-any.whl (483 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:45.7862792Z #9 5.584 Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl (53.9 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0181185Z #9 5.685    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 546.6 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:46.0182199Z #9 5.697 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0182989Z #9 5.700    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 781.4 MB/s  0:00:00
+security-policy	Build the hardened image	2026-10-25T21:13:46.0183672Z #9 5.711 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0184709Z #9 5.723 Downloading pytz-2026.5-py2.py3-none-any.whl (506 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0185354Z #9 5.734 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0186254Z #9 5.745 Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (370 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0187158Z #9 5.757 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.0187736Z #9 5.767 Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+security-policy	Build the hardened image	2026-10-25T21:13:46.2649411Z #9 6.164 Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pygments, pyarrow, psycopg-binary, psycopg, protobuf, pluggy, pillow, packaging, numpy, narwhals, MarkupSafe, iniconfig, idna, greenlet, click, charset_normalizer, certifi, cachetools, blinker, attrs, SQLAlchemy, requests, referencing, python-dateutil, pytest, jinja2, gitdb, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+security-policy	Build the hardened image	2026-10-25T21:13:59.0151792Z #9 18.91 
+security-policy	Build the hardened image	2026-10-25T21:13:59.1710442Z #9 18.92 Successfully installed MarkupSafe-3.0.4 SQLAlchemy-2.0.44 altair-5.5.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 gitdb-4.0.12 gitpython-3.2.1 greenlet-3.5.6 idna-3.20 iniconfig-2.3.1 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.27.1 numpy-2.5.4 packaging-25.0 pandas-2.3.3 pillow-11.3.0 pluggy-1.7.0 protobuf-6.33.6 psycopg-3.2.10 psycopg-binary-3.2.10 pyarrow-26.0.0 pydeck-0.9.3 pygments-2.21.0 pytest-8.4.2 python-dateutil-3.0.0 pytz-2026.5 referencing-0.37.0 requests-2.34.2 rpds-py-2026.9.1 six-1.17.0 smmap-5.0.3 streamlit-1.50.0 tenacity-9.2.1 toml-0.10.2 tornado-6.6 typing-extensions-4.16.0 tzdata-2026.5 urllib3-2.8.0 watchdog-6.0.0
+security-policy	Build the hardened image	2026-10-25T21:13:59.1717012Z #9 18.92 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+security-policy	Build the hardened image	2026-10-25T21:13:59.4999122Z #9 DONE 19.4s
+security-policy	Build the hardened image	2026-10-25T21:13:59.6514859Z 
+security-policy	Build the hardened image	2026-10-25T21:13:59.6517988Z #10 [5/6] RUN groupadd --gid 10001 appuser     && useradd --uid 10001 --gid appuser --create-home appuser     && chown appuser:appuser /app
+security-policy	Build the hardened image	2026-10-25T21:13:59.6519023Z #10 DONE 0.1s
+security-policy	Build the hardened image	2026-10-25T21:13:59.8183200Z 
+security-policy	Build the hardened image	2026-10-25T21:13:59.8183883Z #11 [6/6] COPY --chown=appuser:appuser app ./app
+security-policy	Build the hardened image	2026-10-25T21:13:59.8184983Z #11 DONE 0.0s
+security-policy	Build the hardened image	2026-10-25T21:13:59.8185203Z 
+security-policy	Build the hardened image	2026-10-25T21:13:59.8185361Z #12 exporting to image
+security-policy	Build the hardened image	2026-10-25T21:13:59.8185743Z #12 exporting layers
+security-policy	Build the hardened image	2026-10-25T21:14:02.2463788Z #12 exporting layers 2.6s done
+security-policy	Build the hardened image	2026-10-25T21:14:02.2633495Z #12 writing image sha256:4e757b7f7eeb789828ea19b7cae6356ac9f603a7c3cf1c9371b1e988c3bbd43f done
+security-policy	Build the hardened image	2026-10-25T21:14:02.2634747Z #12 naming to docker.io/library/helpdesk:security done
+security-policy	Build the hardened image	2026-10-25T21:14:02.2635321Z #12 DONE 2.6s
+security-policy	Require a non-root runtime user	﻿2026-10-25T21:14:02.2729635Z ##[group]Run set -euo pipefail
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2729988Z ^[[36;1mset -euo pipefail^[[0m
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2730339Z ^[[36;1mUSER_ID=$(docker run --rm --entrypoint id helpdesk:security -u)^[[0m
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2730733Z ^[[36;1mecho "Container UID: $USER_ID"^[[0m
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2731006Z ^[[36;1mtest "$USER_ID" -ne 0^[[0m
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2797456Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.2797865Z ##[endgroup]
+security-policy	Require a non-root runtime user	2026-10-25T21:14:02.5311771Z Container UID: 10001
+security-policy	Post Check out repository	﻿2026-10-25T21:14:02.5442307Z Post job cleanup.
+security-policy	Post Check out repository	2026-10-25T21:14:02.6282915Z [command]/usr/bin/git version
+security-policy	Post Check out repository	2026-10-25T21:14:02.6331812Z git version 2.55.0
+security-policy	Post Check out repository	2026-10-25T21:14:02.6376968Z Temporarily overriding HOME='/home/runner/work/_temp/6e10f230-241e-4826-85b5-c7e3e171ffdb' before making global git config changes
+security-policy	Post Check out repository	2026-10-25T21:14:02.6378259Z Adding repository directory to the temporary git global config as a safe directory
+security-policy	Post Check out repository	2026-10-25T21:14:02.6382541Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops
+security-policy	Post Check out repository	2026-10-25T21:14:02.6419539Z Removing SSH command configuration
+security-policy	Post Check out repository	2026-10-25T21:14:02.6427384Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+security-policy	Post Check out repository	2026-10-25T21:14:02.6474811Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+security-policy	Post Check out repository	2026-10-25T21:14:02.6725541Z Removing HTTP extra header
+security-policy	Post Check out repository	2026-10-25T21:14:02.6732822Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+security-policy	Post Check out repository	2026-10-25T21:14:02.6771814Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+security-policy	Post Check out repository	2026-10-25T21:14:02.7046215Z Removing includeIf entries pointing to credentials config files
+security-policy	Post Check out repository	2026-10-25T21:14:02.7053781Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+security-policy	Post Check out repository	2026-10-25T21:14:02.7087784Z includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7089231Z includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7090350Z includeif.gitdir:/github/workspace/.git.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7091226Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7098892Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7127742Z /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7145399Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git.path /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7184243Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7211540Z /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7222992Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/sdi4213-week9-devsecops/sdi4213-week9-devsecops/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7259983Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7286267Z /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7297174Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7335158Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-25T21:14:02.7359892Z /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7369842Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config
+security-policy	Post Check out repository	2026-10-25T21:14:02.7407546Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+security-policy	Post Check out repository	2026-10-25T21:14:02.7636712Z Removing credentials config '/home/runner/work/_temp/git-credentials-58a8c003-71e9-4a42-9399-d3e3ab998a96.config'
+security-policy	Complete job	﻿2026-10-25T21:14:02.7796714Z Cleaning up orphan processes

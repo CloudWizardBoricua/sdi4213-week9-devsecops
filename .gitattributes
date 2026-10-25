@@ -2,5 +2,7 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.py text eol=lf
+*.pdf binary
+*.png binary
 # Preserve CLI evidence verbatim, including scanner table padding.
 docs/evidence/logs/*.txt -text -whitespace

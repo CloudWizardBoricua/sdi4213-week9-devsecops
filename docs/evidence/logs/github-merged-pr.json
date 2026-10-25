@@ -1,0 +1,13 @@
+{
+  "command": [
+    "gh",
+    "pr",
+    "view",
+    "3",
+    "--json",
+    "url,state,mergedAt,mergeCommit,headRefOid,baseRefName,headRefName,statusCheckRollup"
+  ],
+  "started_at": "2026-10-25T21:15:00.380242+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T21:15:01.138776+00:00"
+}

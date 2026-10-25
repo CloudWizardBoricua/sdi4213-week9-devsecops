@@ -8,7 +8,7 @@ A Streamlit service-request tracker with PostgreSQL and Adminer, extended with l
 ## Submission
 
 - [Assignment issue #1](https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/issues/1)
-- [Security pull requests](https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/pulls?q=is%3Apr+head%3Asecurity%2Fweek9-devsecops)
+- [Merged security PR #3](https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/pull/3)
 - [Evidence PDF: ten milestones and four reflections](output/pdf/Week9_DevSecOps_Evidence.pdf)
 - [Evidence index and provenance](docs/evidence/README.md) · [Raw command records](docs/evidence/logs/)
 - [Original assignment](docs/Week9_Individual_Exercise.docx)
@@ -208,6 +208,8 @@ To rebuild a fresh baseline, check out starter commit `86da7cd` in a separate di
 The PDF covers milestones 1–10: baseline; ignored `.env`; GitHub Dependabot configuration; CVE summary; recommendations/SBOM; hardened Dockerfile; non-zero UID; GitHub security workflow; passing Actions; final PR and four reflections.
 
 `scripts/record_evidence.py` captures actual stdout/stderr, arguments, UTC timestamps, and exit codes. The evidence index identifies how screenshots were captured. Raw logs preserve full output beyond screenshot excerpts. Scout emitted a temporary-archive cleanup warning but completed the CVE report with exit code 0; the warning is retained.
+
+The report contains one overview page, ten screenshot pages, and a continuation page with the four Milestone 10 reflections. To regenerate it, install ReportLab in a development environment and run `python scripts/build_evidence_pdf.py`; its source text comes from the evidence index. Both course workflows and both Dependabot ecosystem checks passed after the security PR reached `main`.
 
 ## Troubleshooting
 
