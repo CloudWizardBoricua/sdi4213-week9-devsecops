@@ -2,7 +2,7 @@
 
 Repository: [CloudWizardBoricua/sdi4213-week9-devsecops](https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops).
 
-The [submission PDF](../../output/pdf/Week9_DevSecOps_Evidence.pdf) contains ten labeled screenshots and four reflections. Execution records were captured on October 25, 2026; JSON metadata uses UTC. Screenshots and the final PDF are added after the security PR so that its completed checks can be documented.
+The [submission PDF](../../output/pdf/Week9_DevSecOps_Evidence.pdf) contains ten labeled screenshots and four reflections. Execution records were captured on October 25, 2026; JSON metadata uses UTC. The report was assembled after [security PR #3](https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/pull/3) merged, so it can reference completed checks. Milestone 10 includes its full screenshot followed by four reflections on the next page.
 
 ## Capture provenance
 
@@ -14,16 +14,16 @@ Milestones 3, 6, 8, 9, and 10 are captured from the public GitHub repository. Su
 
 | Milestone | Screenshot | One-sentence caption |
 | --- | --- | --- |
-| 1 - Baseline application and tests | [Image](screenshots/milestone-01.png) | Both original tests pass in the unchanged Python 3.13 baseline image before Dockerfile hardening. |
-| 2 - .env protected from Git | [Image](screenshots/milestone-02.png) | Git ignores `.env` and confirms that it is not tracked, without exposing its contents. |
-| 3 - Dependabot configured | [Image](screenshots/milestone-03.png) | The configuration published on GitHub schedules weekly updates for pip and GitHub Actions. |
-| 4 - Baseline Docker Scout CVE scan | [Image](screenshots/milestone-04.png) | Scout reports 5 critical, 41 high, 23 medium, and 28 low findings in `helpdesk:week9-before`. |
-| 5 - Docker Scout recommendations / SBOM evidence | [Image](screenshots/milestone-05.png) | Scout identifies the Python 3.13 slim base as up to date while still listing known base-image vulnerabilities. |
-| 6 - Dockerfile hardened to non-root | [Image](screenshots/milestone-06.png) | The Dockerfile creates `appuser`, assigns ownership, and selects that user before the application command. |
-| 7 - Non-root container verification | [Image](screenshots/milestone-07.png) | The hardened image returns UID 10001, compared with UID 0 in the preserved baseline image. |
-| 8 - Security workflow added | [Image](screenshots/milestone-08.png) | The published workflow rejects tracked `.env` files, builds the image, and requires a non-zero runtime UID. |
-| 9 - GitHub Actions security checks passing | [Image](screenshots/milestone-09.png) | GitHub Actions completes the security-policy job successfully for the security pull request. |
-| 10 - Final pull request and reflection | [Image](screenshots/milestone-10.png) | The final security pull request records successful checks and the reviewed changes before merge. |
+| 1 - Establish a Working Baseline | [Image](screenshots/milestone-01.png) | Both original tests pass in the unchanged Python 3.13 baseline image before Dockerfile hardening. |
+| 2 - Prove .env Is Protected | [Image](screenshots/milestone-02.png) | Git ignores `.env` and confirms that it is not tracked, without exposing its contents. |
+| 3 - Dependabot Configured | [Image](screenshots/milestone-03.png) | The configuration published on GitHub schedules weekly updates for pip and GitHub Actions. |
+| 4 - Baseline CVE Scan | [Image](screenshots/milestone-04.png) | Scout reports 5 critical, 41 high, 23 medium, and 28 low findings in `helpdesk:week9-before`. |
+| 5 - Recommendations / SBOM Evidence | [Image](screenshots/milestone-05.png) | Scout identifies the Python 3.13 slim base as up to date while still listing known base-image vulnerabilities. |
+| 6 - Hardened Dockerfile | [Image](screenshots/milestone-06.png) | The Dockerfile creates `appuser`, assigns ownership, and selects that user before the application command. |
+| 7 - Verify Non-Root Execution | [Image](screenshots/milestone-07.png) | The hardened image returns UID 10001, compared with UID 0 in the preserved baseline image. |
+| 8 - Security Workflow Added | [Image](screenshots/milestone-08.png) | The published workflow rejects tracked `.env` files, builds the image, and requires a non-zero runtime UID. |
+| 9 - Security Checks Passing | [Image](screenshots/milestone-09.png) | GitHub Actions completes the security-policy job successfully for the security pull request. |
+| 10 - Final Pull Request and Reflection | [Image](screenshots/milestone-10.png) | The final security pull request records successful checks and the reviewed changes before merge. |
 
 ## Verification records
 
@@ -32,6 +32,9 @@ Milestones 3, 6, 8, 9, and 10 are captured from the public GitHub repository. Su
 - [Hardened tests](logs/hardened-tests.txt), [UID](logs/hardened-uid.txt), [four positive/negative policy scenarios](logs/policy-scenarios.txt)
 - [PostgreSQL record before recreation](logs/postgres-before-recreate.txt), [after recreation](logs/postgres-after-recreate.txt), [final service status](logs/final-services.txt)
 - [Running Compose user](logs/compose-uid.txt), [Adminer HTTP response](logs/adminer-health.txt)
+- [Both security-PR checks](logs/github-pr-checks.txt), [complete security-job log](logs/github-security-run.txt), [merged PR metadata](logs/github-merged-pr.txt), [main and Dependabot runs](logs/github-main-runs.txt)
+
+Rebuild the PDF with `python -m pip install reportlab` in a development environment, then `python scripts/build_evidence_pdf.py`. It reads these captions and reflections and embeds the original PNGs. The report uses landscape A3 pages to preserve screenshot readability; the ten original files remain available for full-resolution inspection.
 
 The starter's PostgreSQL 18 volume target was repaired before the baseline was established. Local host-port overrides avoid existing Week 7 services and a Windows-reserved port. The baseline Dockerfile and original application/test code were unchanged at baseline scan time. All package versions from the starter remain pinned as supplied.
 

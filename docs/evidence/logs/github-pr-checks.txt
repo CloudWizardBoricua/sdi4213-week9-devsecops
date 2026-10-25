@@ -1,0 +1,2 @@
+security-policy	pass	30s	https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/actions/runs/40234477168/job/121292986617	
+test	pass	28s	https://github.com/CloudWizardBoricua/sdi4213-week9-devsecops/actions/runs/40234477096/job/121292986497	

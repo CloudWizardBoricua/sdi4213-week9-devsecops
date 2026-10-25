@@ -1,0 +1,16 @@
+{
+  "command": [
+    "gh",
+    "run",
+    "list",
+    "--branch",
+    "main",
+    "--limit",
+    "6",
+    "--json",
+    "databaseId,name,status,conclusion,headSha,url"
+  ],
+  "started_at": "2026-10-25T21:15:01.225272+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-25T21:15:02.013084+00:00"
+}
